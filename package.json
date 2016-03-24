@@ -1,7 +1,7 @@
 {
   "name": "ember-later-shim",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "ES6 accessible module for laterjs within your EmberJS applications.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/spieker/ember-later-shim",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -43,7 +43,11 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5"
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-merge-trees": "^1.1.1",
+    "ember-cli-babel": "^5.1.5",
+    "later": "^1.2.0",
+    "lodash.defaults": "^4.0.1"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
