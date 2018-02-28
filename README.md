@@ -2,7 +2,8 @@
 
 ES6 accessible module for laterjs within your EmberJS applications.
 
-## Installation
+Installation
+------------------------------------------------------------------------------
 
 ```
 ember install ember-later-shim

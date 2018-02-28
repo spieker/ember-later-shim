@@ -1,6 +1,6 @@
-import Ember from 'ember';
+import EmberObject from '@ember/object';
 
-let Later = Ember.Object.extend(later, {});
+let Later = EmberObject.extend(later, {});
 
 let emberLater = function (...args) {
   return Later.create(...args);

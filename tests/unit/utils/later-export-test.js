@@ -1,6 +1,6 @@
 import { test, module } from 'qunit';
 import later from 'later';
-import Ember from 'ember';
+import EmberObject from '@ember/object';
 
 module('Unit | later exports');
 
@@ -8,8 +8,8 @@ test('later exports', (assert) => {
   assert.ok(later, 'later exports an object');
 });
 
-test('later instanceof Ember.Object', (assert) => {
-  assert.ok(later instanceof Ember.Object);
+test('later instanceof EmberObject', (assert) => {
+  assert.ok(later instanceof EmberObject);
 });
 
 test('later parse exists', (assert) => {
