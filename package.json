@@ -1,6 +1,6 @@
 {
   "name": "ember-later-shim",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "ES6 accessible module for laterjs within your EmberJS applications.",
   "keywords": [
     "ember-addon"
